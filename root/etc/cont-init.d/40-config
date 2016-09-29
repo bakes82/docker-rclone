@@ -3,7 +3,14 @@
 # create empty config file
 touch /config/.rclone.conf
 
-cp -u /defaults/rclone_cron /config/rclone_cron
+file="/config/rclone_cron"
+
+if [ -f "$file" ]
+then
+	echo "$file found.  Ignored!"
+else
+	cp /defaults/rclone_cron /config/rclone_cron
+fi
 
 # set crontab
 crontab -u abc /config/rclone_cron
