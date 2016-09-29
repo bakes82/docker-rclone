@@ -1,0 +1,17 @@
+#!/usr/bin/with-contenv sh
+
+# create empty config file
+touch /config/.rclone.conf
+
+cp /default/rclone_cron /config/rclone_cron
+
+# set crontab
+crontab -u abc /config/rclone_cron
+
+# permissions
+chown abc:abc \
+	/config/.rclone.conf
+chmod 777 \
+	/var/lock \
+	/config/.rclone.conf \
+	/config/rclone_cron

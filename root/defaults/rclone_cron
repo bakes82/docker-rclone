@@ -1,0 +1,2 @@
+# 0 * * * * rclone <sync/copy> /data/<folder> <remote>:<folder>
+# 0 * * * * /<PathToCustomScript>
