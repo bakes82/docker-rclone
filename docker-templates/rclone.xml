@@ -3,6 +3,7 @@
   <Name>Rclone</Name>
   <Repository>bakes82/docker-rclone:dev</Repository>
   <GitHub>https://github.com/bakes82/docker-rclone</GitHub>
+  <Registry>https://hub.docker.com/r/bakes82/docker-rclone/</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
   <Support>https://lime-technology.com/forum/index.php?topic=52033.0</Support>
