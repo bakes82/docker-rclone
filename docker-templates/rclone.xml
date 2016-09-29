@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Rclone</Name>
-  <Repository>bakes82/docker-rclone:latest</Repository>
+  <Repository>bakes82/docker-rclone</Repository>
   <GitHub>https://github.com/bakes82/docker-rclone</GitHub>
   <Registry>https://hub.docker.com/r/bakes82/docker-rclone/</Registry>
   <Network>bridge</Network>
