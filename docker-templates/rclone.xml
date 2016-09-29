@@ -33,27 +33,6 @@
       <Mode>ro</Mode>
     </Volume>
   </Data>
-    <Variable>
-      <Value/>
-      <Name>SYNC_DESTINATION</Name>
-      <Mode/>
-    </Variable>
-    <Variable>
-      <Value/>
-      <Name>SYNC_DESTINATION_SUBPATH</Name>
-      <Mode/>
-    </Variable>
-    <Variable>
-      <Value/>
-      <Name>CRON_SCHEDULE</Name>
-      <Mode/>
-    </Variable>
-    <Variable>
-      <Value/>
-      <Name>SYNC_COMMAND</Name>
-      <Mode/>
-    </Variable>
-  </Environment>
   <Config Name="Config Path" Target="/config" Default="/mnt/cache/appdata/rclone/config/" Mode="rw" Description="The path where the .rclone.conf file is" Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="Data Path" Target="/data" Default="" Mode="ro" Description="The path to the data which should be backed up by Rclone" Type="Path" Display="always" Required="true" Mask="false"/>
   <Beta>True</Beta>
