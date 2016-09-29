@@ -3,8 +3,7 @@
 # create empty config file
 touch /config/.rclone.conf
 
-rsync -a -v --ignore-existing /defaults/rclone_cron /config/rclone_cron
-#cp -n /defaults/rclone_cron /config/rclone_cron
+cp -u /defaults/rclone_cron /config/rclone_cron
 
 # set crontab
 crontab -u abc /config/rclone_cron
