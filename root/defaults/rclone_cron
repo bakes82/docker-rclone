@@ -1,1 +1,2 @@
-0 * * * * /app/rclone.sh
+# 0 * * * * rclone <sync/copy> /data/<folder> <remote>:<folder>
+# 0 * * * * /<PathToCustomScript>
